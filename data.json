@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Cartel de Star Wars",
+      "price": 40000,
+      "img": "assets/img/cartel_star_wars.webp"
+    },
+    {
+      "name": "Taza Darth Vader",
+      "price": 6000,
+      "img": "./assets/img/darth_vader.jpg"
+    },
+    {
+      "name": "Nintendo Gameboy",
+      "price": 200000,
+      "img": "assets/img/gameboy2.webp"
+    },
+    {
+      "name": "Taza con tapa Stormtrooper",
+      "price": 6800,
+      "img": "assets/img/stormtrooper_con_tapa-.jpg"
+    }
+  ]
+}
