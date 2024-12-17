@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-419">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Chalenge AluraGeek</title>
+</head>
+
+<body>
+    <header>       
+            <img src="./assets/img/heart-star.svg" alt="corazón con estrella"> <!--&nbsp;-->
+            <img src="./assets/img/AluraGeek.svg" alt="Alura Geek">        
+    </header>
+
+    <main class="container">
+        <section class="products_list">
+            <h1>Listado de productos</h1>
+        </section>
+        <form class="container__form" data-form>
+            <h2 class="form__title">Agregar producto</h3>
+
+                <div class="form_field">
+                    <label class="name_field" for="name"></label>
+                    <input name="name" class="name_field" required
+                        placeholder="nombre..." id='name' data-name/>
+                </div>
+
+
+                <div class="form_field">
+                    <label class="price_field" for="price"></label>
+                    <input name="price" class="price_field" required placeholder="precio..."
+                        id='price' data-price/>
+                </div>
+
+                <div class="form_field">
+                    <label class="image_field" for="image"></label>
+                    <input name="image" class="image_field" required placeholder="imagen..."
+                        id='image' data-image/>
+                </div>
+
+                <input class="form__button_submit" type="submit" />
+                <input class="form__button_reset" type="reset" />                
+        </form>
+
+    </main>
+    <ul class="products_container" alt="products" data-list></ul>
+
+    <footer class="footer">
+        <img src="./assets/img/heart-star.svg" alt="corazón con estrella">
+        <img src="./assets/img/AluraGeek.svg" alt="Alura Geek">
+        <h3>Desarrollado por Ester Mosquera</h3>
+        <p>ALURA LATAM 2024</p>
+    </footer>
+    <script src="./js/mostrarVideos.js" type="module"></script>
+    <script src="./js/buscarVideo.js" type="module"></script>
+</body>
+
+</html>
